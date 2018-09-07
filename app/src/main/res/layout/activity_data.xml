@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout"/>
+    <LinearLayout
+        android:id="@+id/operationLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/startTv"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="start"
+            android:background="@drawable/btn_blue_selector"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/saveTv"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="saveData"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:background="@drawable/btn_blue_selector"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_above="@id/operationLL"
+        android:layout_below="@id/common_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/redChart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/infraredChart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

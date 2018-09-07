@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black0">#D9F6F4</color>
+    <color name="black1">#333333</color>
+    <color name="black2">#262626</color>
+
+    <color name="gray0">#B7B7BE</color>
+    <color name="gray1">#E2E2E2</color>
+    <color name="gray2">#999999</color>
+    <color name="gray3">#EFEFF4</color>
+    <color name="gray4">#666666</color>
+
+    <color name="blue1">#4F86FD</color>
+    <color name="blue1_t">#af4F86FD</color>
+    <color name="blue2">#c4d5fc</color>
+    <color name="white">#ffffff</color>
+    <color name="purple0">#784ef6</color>
+    <color name="divider_line">#d9d9d9</color>
+
+    <color name="bg_content">#EFEFF4</color>
+    <!-- 字体色 -->
+    <color name="text_title">#1b1b1b</color>
+    <color name="text_content">#818181</color>
+    <color name="text_sub">#919191</color>
+    <color name="text_hint">#c7c7c7</color>
+    <color name="text_black">#404040</color>
+
+    <color name="red0">#f02f22</color>
+
+    <color name="white40">#40FFFFFF</color>
+</resources>
